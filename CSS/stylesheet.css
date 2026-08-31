@@ -1,0 +1,294 @@
+/* Breakpoint for mobile devices */
+@media (max-width: 600px) {
+    .Hero-image {
+        height: 200px;
+    }
+    .Hero-text h1 {
+        font-size: 24px;
+    }
+    .Hero-text p {
+        font-size: 14px;
+    }
+    .container{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+}
+
+/*Breakpoint for tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .Hero-image {
+        height: 250px;
+    }
+    .Hero-text h1 {
+        font-size: 28px;
+    }
+    .Hero-text p {
+        font-size: 16px;
+    }
+    .container{
+    flex-direction:row ;
+}
+}
+
+/* Breakpoint for desktops */
+
+@media (min-width: 1025px) {
+    .Hero-image {
+        height: 300px;
+
+    }
+    .Hero-text h1 {
+        font-size: 32px;
+    }
+    .Hero-text p {
+        font-size: 18px;
+    }
+    .container{
+    flex-direction:row ;
+}
+}
+
+/* General styles */
+p{
+    line-height: 1.5;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+h3 {
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+ header h1 {
+            text-align: center;
+        }
+
+      body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #a3978d;
+        }
+          header {
+            background-color: #1613b4;
+            color: white;
+            padding: 10px 0;
+        }
+
+        footer{
+            color :black;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+
+/* Hompage css styles */
+     
+.logo {
+    background-color: #1613b4;
+    top: 10px;
+    left: 10px;
+}
+
+        .Hero-image {
+            background-image: url('../images/Logo.jpg.jpeg');
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            transition: transform 0.4s ease;
+            cursor: pointer;
+           }
+        .Hero-image:hover {
+            transform: scale(1.1);
+        }
+      
+HEAD    
+        .Hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color:blue;
+        }
+        .Hero-text h1 {
+            color: black;
+        }
+         nav {
+    background-color: #ee119d;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+        .Hero-image {
+            height: 300px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            margin-bottom: 20px;
+        }
+               .ticker-wrap {
+            background-color: #1613b4;
+            color: white;
+            padding: 10px;
+            overflow: hidden;
+            height: 40px;
+            display: flex;
+            align-items: center;
+        }  
+        .review-ticker {
+            display: inline-block;
+            white-space: nowrap;
+            box-sizing: border-box;
+            width: 100%;
+            background-color: #1613b4;
+            color: white;
+            padding: 10px 0;
+            animation: ticker 25s linear infinite;
+        }
+        .review-ticker span {
+            display: inline-block;
+            padding: 0 2em;
+            font-size: 16px;
+        }
+          @keyframes ticker {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+                transform: translateX(-100%);
+            }
+        } 
+
+        /* About css styles */
+.gallery-img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.gallery-img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+    color: #333;
+}
+        
+        /* Services css styles */
+            #message {
+            display: none;
+            width: 100%;
+            height: 100px;
+        }
+        button:hover {
+            background-color: #555;
+            color: white;
+        }
+        button {
+            background-color:gray;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+          #message{
+            display: none;
+            width: 100%;
+            height: 100px;
+        }
+        #message2 {
+            display: none;
+            width: 100%;
+            height: 100px;
+        }
+
+        select{
+            width:100%;
+            padding:10px;
+            font-size:16px;
+            border-radius:4px;
+        }
+
+        /* enquiry.css */
+        #message {
+            display: none;
+            width: 100%;
+            height: 100px;
+        }
+        button :hover {
+            background-color: #555;
+            color: white;
+        }
+        button {
+            background-color:gray;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* contact.css */
+        map{
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        map iframe {
+            width: 100%;
+            height: 450px;
+            border: 0;
+            border-radius: 8px;
+        }

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | NextGen Elecronics</title>
+        <meta name="description" content="Get in touch with NextGen Electronics for all your electrical service needs. Contact us via phone, email, or visit our location during trading hours.">
+        <meta name="author" content="NextGen Electronics">
+          <link rel="sitemap" type="application/xml" title="Sitemap" href="../sitemap.xml">
+          <link rel="icon" href="../images/NextGen Electronics Logo.png" type="image/png">
+   <link rel="stylesheet" href="../css/style.min.css" type="text/css"/>
+</head>
+<body>
+     <header>
+        <h1>Contact</h1>
+<nav>
+    <ul style="list-style: none; display: flex; gap: 25px; margin: 0; padding: 0;">
+        <li><a href="file:///C:/Users/Dr%20Esitang/OneDrive/Documents/Website1/HTML/hompage.html">Homepage</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+    
+    </header>
+   <section class="contact">
+    <h3>NextGen Electronics</h3>
+    <p>123 King David Avenue</p>
+    <p>Johannesburg - Sandton, South Africa</p>
+    <p>Phone: 027 895 1788</p>
+    <p>Email: NextGenElectronics@gmail.com</p>
+   </section>
+<!--Section for the businesses contact details-->
+
+<!--Section for the businesses trading hours -->
+   <section class="Trading-hours">
+    <h2>Trading Hours</h2>
+    <p>Monday to Friday: 8:00 - 17:00</p>
+    <p>Saturday: 9:00 - 15:00</p>
+    <p>Sunday: Closed</p>
+    <p>Public holidays: 9:00 - 13:00</p>
+    </section>
+
+    <section class="contact-form">
+    <form id ="contact-form"  >
+        <h3>Contact Us</h3>
+        <p>If you have any questions or need further information, please fill out the form below and we will get back to you as soon as possible.</p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br></br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br></br>
+
+                <label for ="Message">Message:</label>
+                <textarea id="message" name="message" rows="2" cols="30" required></textarea><br><br>
+
+            <p>Select email method:
+                <label><input type="radio" name="sendMethod" value="mailto" checked>Email</label>   
+                <label><input type="radio" name="sendMethod" value="gmail">Gmail</label>   
+                <label><input type="radio" name="sendMethod" value="outlook">Outlook</label>
+            </p>
+
+        <button type="submit">Send message</button>
+        <p id="formMessage"></p>
+    </form>
+    </section>
+
+    <script>
+        
+// Contact form email composition and sending
+
+(function() {
+    const RECIPIENT_EMAIL = "NextGenElectronics@gmail.com";
+
+    const form = document.getElementById("contact-form");
+    const status = document.getElementById("formMessage");
+
+    function enc(s) {
+        return encodeURIComponent(s);
+    }
+
+    function composeMailto(to , subject, body) {
+        return `mailto:${enc(to)}?subject=${enc(subject)}&body=${enc(body)}`;
+    }
+
+    function composeGmail(to, subject, body) {
+        return `https://mail.google.com/mail/?view=cm&fs=1&to=${enc(to)}&su=${enc(subject)}&body=${enc(body)}`;
+    }
+
+    function composeOutlook(to, subject, body) {
+        return `https://outlook.live.com/owa/?path=/mail/action/compose&to=${enc(to)}&subject=${enc(subject)}&body=${enc(body)}`;
+    }
+
+    form.addEventListener("submit", function(e) {
+        e.preventDefault();
+       
+       // Form validation script
+
+const name = form.name.value.trim();
+const email = form.email.value.trim();
+const message = form.message.value.trim();
+
+
+// Basic validation
+if (!name || !email || !message) {
+    alert("Please fill in all required fields.");
+    return;
+}
+
+    const sendMethod = (form.querySelector('input[name="sendMethod"]:checked') || {}).value || "mailto";
+    const subject = 'NextGen Electronics Contact Form Submission';
+
+    const body =[
+        'Hello,',
+        '',
+        'You have received a new message from your website contact form.',
+        message,'',
+        '',
+        'Name:${name}',
+        'Email:${email}',
+        'Sent from NextGen  Electronics website contact form.'
+    ].join('\n');
+    
+    let url = '';
+    if (sendMethod === 'gmail') {
+        url = composeGmail(RECIPIENT_EMAIL, subject, body);
+        window.open(url, '_blank','noreferrer');
+    } else if (sendMethod === 'outlook') {
+        url = composeOutlook(RECIPIENT_EMAIL, subject, body);
+        window.open(url, '_blank','noreferrer');
+    } else {
+        url = composeMailto(RECIPIENT_EMAIL, subject, body);
+        window.location .href = url;
+    }
+
+    status.style.color = "green";
+    status.textContent = "Thank you for contacting us! We will get back to you soon.";
+
+    form.reset();
+    });
+})();
+    </script>
+<!--This section is a contact form for users to contact the business directly-->
+
+<div class="map">
+    <h2>Find Us Here</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.714352417745!2d28.058333400000002!3d-26.1082416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95732cb5a3d97b%3A0xde6336359d73b224!2s1st%20Floor%2C%20115%20West%20St%2C%20Sandown%2C%20Sandton%2C%202031%2C%20South%20Africa!5e0!3m2!1sen!2snl!4v1758188327634!5m2!1sen!2snl" 
+        width="100%" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div>
+<!--This section is to show the location of the business-->
+
+    <footer>
+        <p>&copy; 2024 NextGen Electronics. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
