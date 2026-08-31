@@ -1,24 +1,22 @@
-# EcoCycle
+# NextGen
 # Temogo Esitang 
 # ST10485364
-# Group 2
 # Github Link
-https://github.com/VCCT-WEDE5020-2025-G2/Eco-Cycle
+https://github.com/ST10485364/Website1.git)
 
 # Goals
 1.	Increase brand awareness
 2.	Establish a strong online presence
-3.	Showcase products and services, including the recycling programs and workshops
-4.	Provide a platform for the customers so they can purchase eco-friendly products and participate in workshops. 
-5.	Educate everyone about the importance of sustainability and waste reduction.
+3.	Deliver reliable and high-quality solutions and services which will exceed the clients' expectations
+4.	Provide a platform for the customers so they can purchase our services that will help them have a and working              electricity. 
+5.	Educate everyone about the safety of working electricity
 
 # key features
-1. Homepage: this would be the introduction to EcoCycle SA, the mission statement.
-2. Products/Services page: This will showcase the eco-friendly products, recycling programs and workshops.
-3. About Us page: the description of the company as well as its history, team profiles and contact information.
-4. Blog/Resources page: Articles on sustainability, waste reduction, and eco-friendly living.
-5. E-commerce functionality: Online store so people can purchase the eco-friendly.
-6. Workshop registration: Online registration system for workshops and events.
+1. Homepage: this would be the introduction to NextGen electricity, the mission statement.
+2. About Us page: the description of the company as well as its history, team profiles and contact information.
+3. Products/Services page: This will showcase the eco-friendly products, recycling programs and workshops.
+4. E-commerce functionality: Online store so people can purchase the eco-friendly.
+5. Workshop registration: Online registration system for workshops and events.
 
 # Timeline and milestones
 1. Project initiation: Week 1-2 (August 18-31)
