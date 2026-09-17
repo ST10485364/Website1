@@ -35,6 +35,15 @@ https://github.com/ST10485364/Website1.git)
 # Sitemap
 <img width="422" height="402" alt="Sitemap" src="https://github.com/user-attachments/assets/84792c21-f39a-4afe-8ccb-3794212c65e3" />
 
+# References
+https://www.bing.com/ck/a?!&&p=09550fe68d96237be0ce5fed7c131e8b03fc0aae63b6834edeac75b58cc7c7e9JmltdHM9MTc4OTYwMzIwMA&ptn=3&ver=2&hsh=4&fclid=1c9a1211-d0b8-6ae0-1eec-054ad1906b5f&u=a1aHR0cHM6Ly93d3cudm9sdHN0b25lLmNvLnphL2RpZmZlcmVuY2UtYmV0d2Vlbi1saWNlbnNlZC11bmxpY2Vuc2VkLWVsZWN0cmljaWFucy8
+https://www.bing.com/ck/a?!&&p=c17a07939f1419d587d048f45fb92284b9f7b41aac73d0ad20dce29bfed48fe1JmltdHM9MTc4OTYwMzIwMA&ptn=3&ver=2&hsh=4&fclid=1c9a1211-d0b8-6ae0-1eec-054ad1906b5f&psq=%3a+https%3a%2f%2fwww.rsbelectricalinc.com%2fblog%2fthe-role-and-importance-of-a-licensed-electrician&u=a1aHR0cHM6Ly93d3cucnNiZWxlY3RyaWNhbGluYy5jb20vYmxvZy90aGUtcm9sZS1hbmQtaW1wb3J0YW5jZS1vZi1hLWxpY2Vuc2VkLWVsZWN0cmljaWFu
 
+https://www.palmer-electric.com/electrician-orlando-florida/the-difference-between-commercial-industrial-residential-electricians/
+https://www.bing.com/ck/a?!&&p=7e606a02cfb76d6c808c182bfad05a42e83e428b665ba0bffb96f4ca90e58296JmltdHM9MTc4OTYwMzIwMA&ptn=3&ver=2&hsh=4&fclid=1c9a1211-d0b8-6ae0-1eec-054ad1906b5f&psq=https%3a%2f%2fstatus.net%2farticles%2fvision-mission-statements-examples-energy-chemicals%2f&u=a1aHR0cHM6Ly9zdGF0dXMubmV0L2FydGljbGVzL2Jlc3QtY29tcGFueS1zbG9nYW5zLXZpc2lvbi1taXNzaW9uLXN0YXRlbWVudHMtZXhhbXBsZXMv
+https://www.bing.com/ck/a?!&&p=38d85ac26965d4b8f4d0052797bd207eed71f84b36e50540cfea4bf485c9d0a2JmltdHM9MTc4OTYwMzIwMA&ptn=3&ver=2&hsh=4&fclid=1c9a1211-d0b8-6ae0-1eec-054ad1906b5f&psq=https%3a%2f%2fwww.terminalandrae.com%2fWiElectricalContractor%2fMissionVision+&u=a1aHR0cHM6Ly9yb2NrZXRyZWFjaC5jby90ZXJtaW5hbC1hbmRyYWUtcHJvZmlsZV9iNWRlYjMwNGY0MmU0ZTg1
+https://www.bing.com/ck/a?!&&p=f1ffd8d245b69bed4f92bd7a5cc9f5bf86b6587cd59284719288cc213fcfc780JmltdHM9MTc4OTYwMzIwMA&ptn=3&ver=2&hsh=4&fclid=1c9a1211-d0b8-6ae0-1eec-054ad1906b5f&psq=https%3a%2f%2fgetlucidity.com%2fstrategy-resources%2f125-example-company-vision-statements%2f+&u=a1aHR0cHM6Ly9nZXRsdWNpZGl0eS5jb20vc3RyYXRlZ3ktcmVzb3VyY2VzL2NhdGVnb3J5L2V4YW1wbGVzLw
+https://www.bing.com/ck/a?!&&p=65485d9f1b2c09d4a0efd6369ac6330b44bb0328f9c97e05a92780f14001acb7JmltdHM9MTc4OTYwMzIwMA&ptn=3&ver=2&hsh=4&fclid=1c9a1211-d0b8-6ae0-1eec-054ad1906b5f&psq=https%3a%2f%2ffranking.home.blog%2f2023%2f10%2f24%2fwhat-are-the-objectives-of-an-electrical-company%2f+&u=a1aHR0cHM6Ly9mcmFua2luZy5ob21lLmJsb2cvMjAyMy8xMC8yNC93aGF0LWFyZS10aGUtb2JqZWN0aXZlcy1vZi1hbi1lbGVjdHJpY2FsLWNvbXBhbnkv
+https://www.bing.com/ck/a?!&&p=e694b5306c3257d01aa7e11543d8f07817614c22decf6217ce1bce7e15f71ca1JmltdHM9MTc4OTYwMzIwMA&ptn=3&ver=2&hsh=4&fclid=1c9a1211-d0b8-6ae0-1eec-054ad1906b5f&psq=https%3a%2f%2fwww.shockproofbusiness.com%2farticles%2fessential-components-electrical-business-plan-guide%2f&u=a1aHR0cHM6Ly93d3cuc2hvY2twcm9vZmJ1c2luZXNzLmNvbS9hcnRpY2xlcy9lc3NlbnRpYWwtY29tcG9uZW50cy1lbGVjdHJpY2FsLWJ1c2luZXNzLXBsYW4tZ3VpZGUv
 
 
