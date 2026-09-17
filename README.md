@@ -43,7 +43,6 @@ https://www.bing.com/ck/a?!&&p=c17a07939f1419d587d048f45fb92284b9f7b41aac73d0ad2
 https://www.palmer-electric.com/electrician-orlando-florida/the-difference-between-commercial-industrial-residential-electricians/
 
 https://www.bing.com/ck/a?!&&p=7e606a02cfb76d6c808c182bfad05a42e83e428b665ba0bffb96f4ca90e58296JmltdHM9MTc4OTYwMzIwMA&ptn=3&ver=2&hsh=4&fclid=1c9a1211-d0b8-6ae0-1eec-054ad1906b5f&psq=https%3a%2f%2fstatus.net%2farticles%2fvision-mission-statements-examples-energy-
-
 chemicals%2f&u=a1aHR0cHM6Ly9zdGF0dXMubmV0L2FydGljbGVzL2Jlc3QtY29tcGFueS1zbG9nYW5zLXZpc2lvbi1taXNzaW9uLXN0YXRlbWVudHMtZXhhbXBsZXMv
 
 https://www.bing.com/ck/a?!&&p=38d85ac26965d4b8f4d0052797bd207eed71f84b36e50540cfea4bf485c9d0a2JmltdHM9MTc4OTYwMzIwMA&ptn=3&ver=2&hsh=4&fclid=1c9a1211-d0b8-6ae0-1eec-054ad1906b5f&psq=https%3a%2f%2fwww.terminalandrae.com%2fWiElectricalContractor%2fMissionVision+&u=a1aHR0cHM6Ly9yb2NrZXRyZWFjaC5jby90ZXJtaW5hbC1hbmRyYWUtcHJvZmlsZV9iNWRlYjMwNGY0MmU0ZTg1
