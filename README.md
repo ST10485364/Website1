@@ -25,7 +25,9 @@ https://github.com/ST10485364/Website1.git)
 4. Testing and launch: Week 9-10 (October 13-26)
 
 # Changelog
-i  managed
+I managed to make the images display when running the website.
+I fixed the navigation system to work when going from the contact page to the homepage.
+
 
 # Wireframes
 <img width="263" height="361" alt="Screenshot 2026-08-12 203027" src="https://github.com/user-attachments/assets/22d81d40-8824-485c-84df-c786cad8e316" />
