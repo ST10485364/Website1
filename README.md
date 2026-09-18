@@ -35,6 +35,11 @@ https://github.com/ST10485364/Website1.git)
 # Sitemap
 <img width="1024" height="768" alt="Pastel Pink and Peach Gradient Creative Agency Graph " src="https://github.com/user-attachments/assets/8c1f29b8-9f2a-4e89-a849-74baf5f53866" />
 
+# Screenshots
+<img width="926" height="421" alt="Screenshot 2026-09-18 074143" src="https://github.com/user-attachments/assets/b3008804-057d-4a9e-8528-e9e40e4dda6f" />
+
+
+
 
 # References
 https://www.bing.com/ck/a?!&&p=09550fe68d96237be0ce5fed7c131e8b03fc0aae63b6834edeac75b58cc7c7e9JmltdHM9MTc4OTYwMzIwMA&ptn=3&ver=2&hsh=4&fclid=1c9a1211-d0b8-6ae0-1eec-054ad1906b5f&u=a1aHR0cHM6Ly93d3cudm9sdHN0b25lLmNvLnphL2RpZmZlcmVuY2UtYmV0d2Vlbi1saWNlbnNlZC11bmxpY2Vuc2VkLWVsZWN0cmljaWFucy8
