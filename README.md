@@ -36,10 +36,17 @@ https://github.com/ST10485364/Website1.git)
 <img width="1024" height="768" alt="Pastel Pink and Peach Gradient Creative Agency Graph " src="https://github.com/user-attachments/assets/8c1f29b8-9f2a-4e89-a849-74baf5f53866" />
 
 # Screenshots
-<img width="926" height="421" alt="Screenshot 2026-09-18 074143" src="https://github.com/user-attachments/assets/b3008804-057d-4a9e-8528-e9e40e4dda6f" />
-
-
-
+<img width="919" height="381" alt="Screenshot 2026-09-18 073732" src="https://github.com/user-attachments/assets/4cc5ec8f-3c93-4c95-a1a5-c0411c5bfe0a" />
+<img width="929" height="437" alt="Screenshot 2026-09-18 073809" src="https://github.com/user-attachments/assets/2d3ae573-cc4d-4eea-bc91-c8b9fe3ae858" />
+<img width="933" height="287" alt="Screenshot 2026-09-18 073832" src="https://github.com/user-attachments/assets/4139f065-17a7-4562-b3f2-2ad728130864" />
+<img width="920" height="361" alt="Screenshot 2026-09-18 073855" src="https://github.com/user-attachments/assets/89e3b4a9-3368-4fe8-b94d-7d9c43461f93" />
+<img width="920" height="420" alt="Screenshot 2026-09-18 073916" src="https://github.com/user-attachments/assets/ace287e5-1c60-453f-b1a3-52390b35d7af" />
+<img width="935" height="320" alt="Screenshot 2026-09-18 073939" src="https://github.com/user-attachments/assets/3388a306-3ef7-4b5b-9b2c-4b8802e5e248" />
+<img width="928" height="373" alt="Screenshot 2026-09-18 073959" src="https://github.com/user-attachments/assets/22fd15d3-021b-46ae-a2b6-5bb73427b9a7" />
+<img width="923" height="433" alt="Screenshot 2026-09-18 074019" src="https://github.com/user-attachments/assets/de24c21e-f03b-42e5-8bfe-d414ef5ee035" />
+<img width="932" height="421" alt="Screenshot 2026-09-18 074042" src="https://github.com/user-attachments/assets/4cd64a07-e9d5-40cd-92dd-0dd547bab1e1" />
+<img width="926" height="427" alt="Screenshot 2026-09-18 074113" src="https://github.com/user-attachments/assets/81b8a27a-87d7-4e93-8faa-88b3547c2747" />
+<img width="926" height="421" alt="Screenshot 2026-09-18 074143" src="https://github.com/user-attachments/assets/68b3d69f-6ed0-400b-b123-209bca03139a" />
 
 # References
 https://www.bing.com/ck/a?!&&p=09550fe68d96237be0ce5fed7c131e8b03fc0aae63b6834edeac75b58cc7c7e9JmltdHM9MTc4OTYwMzIwMA&ptn=3&ver=2&hsh=4&fclid=1c9a1211-d0b8-6ae0-1eec-054ad1906b5f&u=a1aHR0cHM6Ly93d3cudm9sdHN0b25lLmNvLnphL2RpZmZlcmVuY2UtYmV0d2Vlbi1saWNlbnNlZC11bmxpY2Vuc2VkLWVsZWN0cmljaWFucy8
