@@ -24,6 +24,9 @@ https://github.com/ST10485364/Website1.git)
 3. Design and development: Week 5-8 (September 15-October 12)
 4. Testing and launch: Week 9-10 (October 13-26)
 
+# Changelog
+i  managed
+
 # Wireframes
 <img width="263" height="361" alt="Screenshot 2026-08-12 203027" src="https://github.com/user-attachments/assets/22d81d40-8824-485c-84df-c786cad8e316" />
 <img width="265" height="366" alt="Screenshot 2026-08-12 203505" src="https://github.com/user-attachments/assets/b33907ed-8475-45cb-be13-2e92aed5fe56" />
