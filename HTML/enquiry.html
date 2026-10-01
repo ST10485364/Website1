@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enquiry | JOJO Elecronics</title>
-        <meta name="description" content="Submit your enquiries to JOJO Electronics. We are here to assist you with any questions or information you need regarding our electrical services.">
+    <title>Enquiry | NextGen Electronics</title>
+        <meta name="description" content="Submit your enquiries to NextGen Electronics. We are here to assist you with any questions or information you need regarding our electrical services.">
         <meta name="author" content="NextGen Electronics">
           <link rel="sitemap" type="application/xml" title="Sitemap" href="../sitemap.xml">
-          <link rel="icon" href="../images/JOJO Electronics Logo.png" type="image/png">
+          <link rel="icon" href="../images/NextGen Electronics Logo.png" type="image/png">
    <link rel="stylesheet" href="../css/style.min.css" type="text/css"/>
 </head>
 <body>
@@ -48,7 +48,7 @@
     // Enquiry form submission script
 
 (function() {
-    const RECIPIENT_EMAIL = "JOJOElectronics@gmail.com";
+    const RECIPIENT_EMAIL = "NextGenElectronics@gmail.com";
 
     const form = document.getElementById("enquiryForm");
     const status = document.getElementById("formMessage");
@@ -85,7 +85,7 @@ if (!email || !enquiry) {
 }
 
     const sendMethod = (form.querySelector('input[name="sendMethod"]:checked') || {}).value || "mailto";
-    const subject = 'JOJO Electronics Contact Form Submission';
+    const subject = 'NextGen Electronics Contact Form Submission';
 
     const body =[
         'Hello,',
@@ -95,7 +95,7 @@ if (!email || !enquiry) {
         '',
         'Email:${email}',
         'Enquiry:${enquiry}',
-        'Sent from JOJO Electronics website contact form.'
+        'Sent from NextGen Electronics website contact form.'
     ].join('\n');
     
     let url = '';

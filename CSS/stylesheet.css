@@ -197,27 +197,20 @@ nav ul li a:hover {
             }
         } 
 
-        /* About css styles */
+ /* About css styles */
 .gallery-img {
-    width: 100%;
-    max-width: 300px;
+    width: 50vw;
+    max-width: 50vw;
     height: auto;
     border-radius: 6px;
     cursor: pointer;
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
-}
-
-.gallery-img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    border-radius: 6px;
-    cursor: pointer;
 }
 
 figcaption {
@@ -268,7 +261,7 @@ figcaption {
             width: 100%;
             height: 100px;
         }
-        button :hover {
+        button:hover {
             background-color: #555;
             color: white;
         }

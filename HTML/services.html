@@ -109,7 +109,7 @@
     </section>
     <script> 
          (function() {
-    const RECIPIENT_EMAIL = "JOJOElectronics@gmail.com";
+    const RECIPIENT_EMAIL = "NextGenElectronics@gmail.com";
 
     const form = document.getElementById("serviceForm");
     const status = document.getElementById("formMessage");
@@ -157,7 +157,7 @@ if (!name || !email || !number || !service) {
 }
  
 const sendMethod = (form.querySelector('input[name="sendMethod"]:checked') || {}).value || "mailto";
-    const subject = 'JOJO Electronics Contact Form Submission';
+    const subject = 'NextGen Electronics Contact Form Submission';
 
     const body =[
         'Hello,',
@@ -171,7 +171,7 @@ const sendMethod = (form.querySelector('input[name="sendMethod"]:checked') || {}
         'Phone:${phone}',
         'Service Required:${service}',
         'Service Two:${service2}',
-        'Sent from JOJO Electronics website contact form.'
+        'Sent from NextGen Electronics website contact form.'
     ].join('\n');
     
     let url = "";
