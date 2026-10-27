@@ -12,8 +12,8 @@ body {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+  max-width: 50%;
+  height: 50%;
   display: block;
 }
 
@@ -24,6 +24,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
   padding: 10px 30px;
   width: 100%;
 }
@@ -34,7 +35,7 @@ header {
 
 .logo img {
   height: 60px;
-  width: auto;
+  width: 100%;
 }
 
 header nav {
@@ -69,13 +70,13 @@ header nav ul li a:hover {
 p {
   line-height: 1.5;
   margin-bottom: 15px;
-  text-align: center;
-  padding: 0 15px;
+  text-align: left;
+  padding: 0 20px;
 }
 
 h2, h3 {
   color: #000;
-  text-align: center;
+  text-align: left;
 }
 h2 { margin-top: 20px; margin-bottom: 10px; font-size: 24px; }
 h3 { margin-top: 15px; margin-bottom: 8px; font-size: 20px; }
@@ -152,6 +153,19 @@ footer {
 figcaption { text-align: center; font-size: 14px; margin-top: 5px; color: #333; }
 .team-image-container { width: 100%; padding: 0 15px; }
 .team-image { width: 100%; height: auto; }
+
+/* Target Audience centered */
+.audience-list {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+}
+.audience-list li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
 
 /* --- SERVICES / ENQUIRY / CONTACT --- */
 #message, #message2 { display: none; width: 100%; height: 100px; }
