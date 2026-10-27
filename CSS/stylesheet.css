@@ -12,8 +12,8 @@ body {
 }
 
 img {
-  max-width: 50%;
-  height: 50%;
+  max-width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -24,7 +24,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-align: center;
   padding: 10px 30px;
   width: 100%;
 }
@@ -34,7 +33,7 @@ header {
 }
 
 .logo img {
-  height: 100px;
+  height: 80px;
   width: auto;
 }
 
@@ -50,10 +49,6 @@ header nav ul {
   gap: 25px;
   margin: 0;
   padding: 0;
-}
-
-header nav ul li {
-  margin: 0;
 }
 
 header nav ul li a {
@@ -74,16 +69,19 @@ p {
   padding: 0 20px;
 }
 
+h1 {
+  text-align: left;
+  padding: 0 20px;
+  color: #000;
+}
+
 h2, h3 {
   color: #000;
   text-align: left;
+  padding: 0 20px;
 }
 h2 { margin-top: 20px; margin-bottom: 10px; font-size: 24px; }
 h3 { margin-top: 15px; margin-bottom: 8px; font-size: 20px; }
-
-header h1 {
-  text-align: center;
-}
 
 footer {
   color: black;
@@ -102,12 +100,10 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 40px 20px;
-  position: relative;
   margin-bottom: 20px;
 }
 
 .Hero-text {
-  position: static !important; /* THIS FIXES THE OVERLAP */
   text-align: center;
   color: black;
   max-width: 800px;
@@ -161,13 +157,12 @@ figcaption { text-align: center; font-size: 14px; margin-top: 5px; color: #333; 
 .team-image-container { width: 100%; padding: 0 15px; }
 .team-image { width: 100%; height: auto; }
 
-/* Target Audience centered */
+/* Target Audience */
 .audience-list {
   list-style: none;
-  text-align: center;
-  padding: 0;
+  text-align: left;
+  padding: 0 20px;
   max-width: 800px;
-  margin: 0 auto 20px auto;
 }
 .audience-list li {
   margin-bottom: 8px;
@@ -175,13 +170,53 @@ figcaption { text-align: center; font-size: 14px; margin-top: 5px; color: #333; 
 }
 
 /* --- SERVICES / ENQUIRY / CONTACT --- */
-#message, #message2 { display: none; width: 100%; height: 100px; }
-textarea { width: 100%; padding: 10px; font-size: 16px; border-radius: 4px; border: 1px solid #ccc; margin: 10px 0; resize: vertical; }
-select { width: 100%; padding: 10px; font-size: 16px; border-radius: 4px; }
-button { background-color: gray; color: white; padding: 10px 15px; border: none; cursor: pointer; }
+/* FIXED: Message box now visible */
+#message, #message2 {
+  display: block !important;
+  width: 100%;
+  max-width: 500px;
+  min-height: 130px;
+  background: white;
+  border: 1px solid #888;
+}
+
+textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #888;
+  margin: 10px 0;
+  resize: vertical;
+  display: block;
+  background: white;
+}
+
+select { width: 100%; max-width: 500px; padding: 10px; font-size: 16px; border-radius: 4px; }
+input[type="text"], input[type="email"], input[type="tel"] {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #888;
+  margin: 10px 0;
+  display: block;
+  background: white;
+}
+
+button { background-color: gray; color: white; padding: 10px 15px; border: none; cursor: pointer; margin-top: 10px; }
 button:hover { background-color: #555; color: white; }
-map { text-align: center; margin: 20px 0; display: block; }
-map iframe { width: 100%; height: 450px; border: 0; border-radius: 8px; }
+
+.map { text-align: left; margin: 20px 0; display: block; padding: 20px; }
+.map iframe { width: 100%; height: 450px; border: 0; border-radius: 8px; }
+
+/* CONTACT LEFT ALIGN */
+.contact, .trading-hours, .contact-form {
+  text-align: left;
+  padding: 20px;
+}
 
 /* --- RESPONSIVE --- */
 @media (max-width: 600px) {
@@ -195,36 +230,10 @@ map iframe { width: 100%; height: 450px; border: 0; border-radius: 8px; }
     justify-content: center;
     gap: 12px;
   }
-  .Hero-image { height: 200px; border-radius: 0; }
-  .Hero-text h1 { font-size: 22px; }
-  .Hero-text p { font-size: 14px; }
-}
-
-@media (min-width: 601px) and (max-width: 1024px) {
-  .Hero-image { height: 250px; }
-  .Hero-text h1 { font-size: 28px; }
-  .Hero-text p { font-size: 16px; }
-}
-
-@media (min-width: 1025px) {
-  .Hero-image { height: 300px; }
-  .Hero-text h1 { font-size: 32px; }
-  .Hero-text p { font-size: 18px; }
-}
-
-/* Mobile fix */
-@media (max-width: 768px) {
-  .Hero-image {
-    min-height: 150px;
-    padding: 20px;
-  }
-  .Hero-text h1 {
-    font-size: 18px;
-  }
+  .Hero-image { min-height: 180px; }
+  .Hero-text h1 { font-size: 20px; }
 }
 
 @media (max-width: 440px) {
-  .Hero-text h1 {
-    font-size: 16px;
-  }
+  .Hero-text h1 { font-size: 16px; }
 }
