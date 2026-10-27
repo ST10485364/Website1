@@ -1,28 +1,43 @@
-/* Breakpoint for mobile devices */
+/* === FIX: LOGO BESIDE NAV === */
+header {
+  background-color: #1613b4 !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 10px 30px !important;
+}
+
+.logo {
+  background-color: transparent !important;
+  top: auto !important;
+  left: auto !important;
+}
+
+header nav {
+  background-color: transparent !important;
+  padding: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+header nav ul {
+  text-align: left !important;
+  display: flex !important;
+  gap: 25px;
+  margin: 0 !important;
+}
+
+header nav ul li {
+  margin: 0 !important;
+}
+
+/* Mobile - stack them on phone */
 @media (max-width: 600px) {
-    .Hero-image {
-        height: 200px;
-    }
-    .team-image-container {
-        width: 100%;
-        height: auto;
-    }
-    .team-image {
-        width: 100%;
-        height: auto;
-    }
-    .Hero-text h1 {
-        font-size: 24px;
-    }
-    .Hero-text p {
-        font-size: 14px;
-    }
-    .container{
-    display: flex;
+  header {
     flex-direction: column;
-    gap:1rem;
+    gap: 10px;
+  }
 }
-}
+
 
 /*Breakpoint for tablets */
 @media (min-width: 601px) and (max-width: 1024px) {
