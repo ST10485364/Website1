@@ -3,6 +3,14 @@
     .Hero-image {
         height: 200px;
     }
+    .team-image-container {
+        width: 100%;
+        height: auto;
+    }
+    .team-image {
+        width: 100%;
+        height: auto;
+    }
     .Hero-text h1 {
         font-size: 24px;
     }
@@ -20,6 +28,10 @@
 @media (min-width: 601px) and (max-width: 1024px) {
     .Hero-image {
         height: 250px;
+    }
+    .team-image {
+        width: 100%;
+        height: auto;
     }
     .Hero-text h1 {
         font-size: 28px;
@@ -262,10 +274,11 @@ figcaption {
             height: 100px;
         }
         
-        buttonxnh<;/.:hover {
-            background-color: #555;
-            color: white;
-        }
+        button:hover {
+    background-color: #555;
+    color: white;
+}
+        
         button {
             background-color:gray;
             color: white;
@@ -286,3 +299,5 @@ figcaption {
             border: 0;
             border-radius: 8px;
         }
+
+        
