@@ -45,6 +45,7 @@ I fixed the navigation system to work when going from the contact page to the ho
 <img width="929" height="437" alt="Screenshot 2026-09-18 073809" src="https://github.com/user-attachments/assets/2d3ae573-cc4d-4eea-bc91-c8b9fe3ae858" />
 <img width="933" height="287" alt="Screenshot 2026-09-18 073832" src="https://github.com/user-attachments/assets/4139f065-17a7-4562-b3f2-2ad728130864" />
 <img width="328" height="382" alt="image" src="https://github.com/user-attachments/assets/27ca2400-85e1-4bd4-846e-cfd278f0084f" />
+
 <img width="187" height="367" alt="image" src="https://github.com/user-attachments/assets/ed4cc976-ceb9-4845-873e-cfd316df9ba7" />
 
 # Changelog
