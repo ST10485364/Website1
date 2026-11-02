@@ -47,8 +47,95 @@ I fixed the navigation system to work when going from the contact page to the ho
 <img width="328" height="382" alt="image" src="https://github.com/user-attachments/assets/27ca2400-85e1-4bd4-846e-cfd278f0084f" />
 <img width="187" height="367" alt="image" src="https://github.com/user-attachments/assets/ed4cc976-ceb9-4845-873e-cfd316df9ba7" />
 
+# Changelog
+This documents all changes made based on Lecturer Feedback and self-found bugs.
+#### 1. Critical Fix - CSS Folder Not Loading Online
+Problem: HTML referenced `../css/stylesheet.css` but actual folder was `CSS/` (uppercase). Linux hosting is case-sensitive, so site showed without styling.
+File: All 5 HTML files + folder structure
+Change: Renamed folder `CSS/` to `css/` (lowercase). Updated all links to `../css/stylesheet.css`.
+Result: Styling now loads online.
 
+#### 2. CSS Merge Conflict Removal
+Problem: README says "Remove leftover HEAD merge-conflict text from CSS"
+File: `css/stylesheet.css`
+Change: Deleted lines `<<<<<<< HEAD`, `=======`, `>>>>>>> main` from CSS file.
+Result: Clean CSS file with no git errors.
 
+#### 3. Fixed Broken `file:///C:/` Link in contact.html
+Problem: Feedback: "replace the local file:///C:/ link in contact.html"
+File: `contact.html`
+Before:`<a href="file:///C:/Users/Dr%20...">`
+After:	`<a href="homepage.html">Homepage</a>` (project-relative path)
+Result: No local file paths, all links work online.
+
+#### 4. Fixed Hero Image Overlap - "Fast and Reliable Electrical Services"
+Problem: Hero text overlapped paragraph on iPad Mini (768px) and iPhone 16 Pro Max (440px).
+File:`css/stylesheet.css
+Before: `.Hero-text { position: absolute; } .Hero-image { height: 200px; }`
+After: `.Hero-image { display: flex; min-height: 250px; } .Hero-text { position: static; }`
+Result: Hero text stays inside grey box on all breakpoints, no overlap.
+
+#### 5. Fixed Missing Message Box - "Nothing to type by the message"
+Problem: Contact page screenshot shows Message label but no input area.
+File: `css/stylesheet.css`
+Before:`#message, #message2 { display: none; } img { max-width: 50%; height: 50%; }`
+After:`#message, #message2 { display: block !important; min-height: 130px; background: white; } img { max-width: 100%; }`
+Change Also: `contact.html` - changed `<textarea rows="2">` to `rows="6"` and added `placeholder="Type your message here..."`, removed invalid `<br></br>` tags.
+Result: Message textarea is now visible and usable.
+
+#### 6. Fixed Navigation - Inline Styles + Mobile Cut Off at 375px
+Problem: Feedback: "Move inline navigation styles into external stylesheet and ensure navigation adapts on mobile, currently cut off at 375px"
+File: All 5 HTML files + `css/stylesheet.css`
+Before: `<ul style="list-style: none; display: flex; gap: 25px;">`
+After: `<ul>` (no inline style) + CSS handles it:
+header nav ul { list-style: none; display: flex; gap: 25px; }
+@media (max-width: 600px) { header { flex-direction: column; } header nav ul { flex-wrap: wrap; justify-content: center; } }
+Result: No inline styles, nav wraps and is readable on 375px width.
+
+#### 7. Fixed Button Hover Selector
+Problem: Feedback: "button :hover selector should be corrected by removing unnecessary space"
+File:`css/stylesheet.css`
+Before: `button :hover { ... }` (with space = child element)
+After: `button:hover { ... }` (no space)
+Result: Hover effect now works correctly.
+
+#### 8. Fixed Text Alignment - Left Align Contact and Services
+User Request: "left align the text under contact us" and "left align not right aligned"
+File: `css/stylesheet.css`
+Before: `p { text-align: center; } h2, h3 { text-align: center; }`
+After: `p { text-align: left; padding: 0 20px; } h2, h3 { text-align: left; } .contact, .trading-hours, .contact-form { text-align: left; }`
+Result: Contact page and Trading Hours are left aligned as requested.
+
+#### 9. Fixed Broken Image Paths and Hero Image URL
+Problem:`"Several image paths and hero image URL are also broken"
+File: All HTML + CSS
+Before: `../Images/` and `background-image: url(broken link)`
+After: `../images/` (lowercase) and `.Hero-image { background-color: #e8e8e8; background-image: none; }`
+Result: All images load correctly.
+
+#### 10. Fixed References - Bing Redirect URLs to Harvard
+Problem: "Your current references use Bing redirect URLs, replace with properly formatted Harvard references"
+File: `README.md`
+Before: `https://www.bing.com/ck/a?!&&p=09550fe68d96237...&u=a1aHR0cHM6...`
+After: Decoded and formatted:
+`Voltstone (2024) Difference between licensed and unlicensed electricians. Available at: https://www.voltstone.co.za/difference-between-licensed-unlicensed-electricians/ (Accessed: 27 October 2026).`
+Result: 8 references now in proper Harvard format, no Bing tracking links.
+
+#### 11. Logo Missing from Header (Added Back)
+Problem: User removed logo during edits.
+File: All HTML files
+Change: Added back:
+<div class="logo"><img src="../images/NextGen Electronics Logo.png" alt="NextGen Logo"></div>
+Result: Logo visible beside navigation on all pages.
+
+#### 12. Fixed Contact Form Email Bug
+File: `contact.html` and `services.html`
+Before: `body =[ 'Name:${name}' ]` (single quotes, won't interpolate)
+After: `` body = `Name: ${name}\nEmail: ${email}` `` (template literals)
+Result: Email composition now shows actual user data.
+
+Summary: Total 12 major fixes covering Part 2 requirements: Responsive design (375px, 768px, 1024px), external CSS, valid Harvard referencing, working forms, and mobile navigation.
+	
 # References
 Voltstone (2024) Difference between licensed and unlicensed electricians. Available at: https://www.voltstone.co.za/difference-between-licensed-unlicensed-electricians/ (Accessed: 27 October 2026).RSB Electrical Inc. (2024) The role and importance of a licensed electrician. Available at: https://www.rsbelectricalinc.com/blog/the-role-and-importance-of-a-licensed-electrician (Accessed: 27 October 2026).Palmer Electric (2024) The difference between commercial, industrial and residential electricians. Available at: https://www.palmer-electric.com/electrician-orlando-florida/the-difference-between-commercial-industrial-residential-electricians/ (Accessed: 27 October 2026).Status.net (2023) Best company slogans, vision and mission statements examples. Available at: https://status.net/articles/best-company-slogans-vision-mission-statements-examples/ (Accessed: 27 October 2026).RocketReach (2024) Terminal Andrae profile. Available at: https://rocketreach.co/terminal-andrae-profile_b5deb304f42e4e85 (Accessed: 27 October 2026).Lucidity (2023) Strategy resources: Company vision statement examples. Available at: https://getlucidity.com/strategy-resources/category/examples/ (Accessed: 27 October 2026).Franking, H. (2023) What are the objectives of an electrical company? Available at: https://franking.home.blog/2023/10/24/what-are-the-objectives-of-an-electrical-company/ (Accessed: 27 October 2026).Shockproof Business (2024) Essential components of an electrical business plan guide. Available at: https://www.shockproofbusiness.com/articles/essential-components-electrical-business-plan-guide/ (Accessed: 27 October 2026).
 Pexels (2024) Electrician working on electrical panel. Available at: https://www.pexels.com/search/electrician/ (Accessed: 27 October 2026).
