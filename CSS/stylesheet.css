@@ -169,6 +169,41 @@ figcaption { text-align: center; font-size: 14px; margin-top: 5px; color: #333; 
   line-height: 1.5;
 }
 
+.gallery-img {
+    cursor: zoom-in;
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.9);
+    overflow: auto;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.lightbox-content {
+    max-width: 90%;
+    max-height: 80vh;
+    margin: 0 auto;
+}
+
+#caption {
+    color: #ccc;
+    margin-top: 10px;
+    padding: 0 20px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+}
 /* --- SERVICES / ENQUIRY / CONTACT --- */
 /* FIXED: Message box now visible */
 #message, #message2 {

@@ -1,34 +1,34 @@
-
 // Lightbox functionality
-
 const lightbox = document.getElementById("lightbox");
 const lightboxImg = document.getElementById("lightbox-img");
 const captionText = document.getElementById("caption");
-const closebtn = document.getElementsByClassName("close")[0];
+const closeBtn = document.querySelector("#lightbox .close");
 
-if (lightbox && lightboxImg && captionText && closebtn) {
+if (lightbox && lightboxImg && captionText && closeBtn) {
+    function closeLightbox() {
+        lightbox.style.display = "none";
+    }
+
     document.querySelectorAll(".gallery-img").forEach(img => {
-        img.addEventListener("click", function() {
+        img.addEventListener("click", function () {
             lightbox.style.display = "block";
             lightboxImg.src = this.src;
-            captionText.innerHTML = this.alt;
+            lightboxImg.alt = this.alt;
+            captionText.textContent = this.alt;
         });
     });
 
-    closebtn.addEventListener("click",() => {
-        lightbox.style.display = "none";
+    closeBtn.addEventListener("click", closeLightbox);
+
+    lightbox.addEventListener("click", (event) => {
+        if (event.target === lightbox) closeLightbox();
     });
 
-    window.addEventListener("click", (event) => {
-        if (event.target === lightbox) {
-            lightbox.style.display = "none";
-        }
+    document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") closeLightbox();
     });
+}
 
-    function closeLightbox() {
-        lightbox.style.display = "none";
-}
-}
 
 // Search functionality
 const searchInput = document.getElementById('searchInput');
